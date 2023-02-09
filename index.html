@@ -965,8 +965,9 @@
 					<div class="col-md-12">
 						<div class="newsletter">
 							<p>Sign Up for the <strong>NEWSLETTER</strong></p>
-							<form name="newsletter" target="_blank" action="" method="POST" netlify>
+							<form name="newsletter" target="_blank" action="" method="POST" data-netlify-recaptcha="true" netlify>
 								<input class="input" name="email" input type="email" placeholder="Enter Your Email">
+								<div data-netlify-recaptcha="true"></div>
 								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Subscribe</button>
 							</form>
 							<ul class="newsletter-follow">
